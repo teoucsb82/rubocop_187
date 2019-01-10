@@ -1,0 +1,32 @@
+# This is the configuration used to check the rubocop source code.
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+  TargetRubyVersion: 2.3
+
+# Ruby 1.8.7 needs the . on chain of method calls at the end of a line
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Ruby 1.8.7 doesn't have the -> lambda
+Style/Lambda:
+  Enabled: false
+
+# Ruby 1.8.7 doesn't have 1.9 style hash syntax
+Style/HashSyntax:
+  EnforcedStyle: hash_rockets
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
