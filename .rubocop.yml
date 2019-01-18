@@ -25,6 +25,10 @@ Style/HashSyntax:
 Style/StringLiterals:
   Enabled: false
 
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+
 Style/Documentation:
   Enabled: false
 
