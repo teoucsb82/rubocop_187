@@ -1,24 +1,6 @@
-# README
+## Rubocop (1.8.7)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Add your code to be linted to the `app/models/rubocop_temp.rb` file
+- Save changes
+- In terminal, run `rubocop app/models/rubocop_temp.rb -a`
+- Copy the output, replace original code, confirm you're happy with changes before committing.
