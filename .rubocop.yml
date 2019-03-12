@@ -23,11 +23,13 @@ Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
 Style/StringLiterals:
-  Enabled: false
+  Enabled: true
 
 Style/SymbolArray:
   EnforcedStyle: brackets
 
+Style/WordArray:
+  EnforcedStyle: brackets
 
 Style/Documentation:
   Enabled: false
