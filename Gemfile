@@ -3,6 +3,7 @@ ruby '2.3.7'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'coffee-rails', '~> 4.2'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'jbuilder', '~> 2.5'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2'
