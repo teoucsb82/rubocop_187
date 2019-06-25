@@ -36,3 +36,6 @@ Style/Documentation:
 
 Metrics/LineLength:
   Max: 100
+
+Style/SafeNavigation:
+  Enabled: false
