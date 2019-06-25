@@ -29,5 +29,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-/app/models/rubocop_temp.rb
 /lib/faker_generator.rb
